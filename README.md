@@ -1,1 +1,1 @@
-"#bs-game-server" 
+#bs-game-server
