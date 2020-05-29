@@ -1,0 +1,37 @@
+{
+  "name": "bs-game-server",
+  "version": "0.0.1",
+  "description": "Free and open source engine for playing card games with friends.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tekman13/bs-game-server.git"
+  },
+  "keywords": [
+    "poker",
+    "game",
+    "server"
+  ],
+  "author": "tekman13",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tekman13/bs-game-server/issues"
+  },
+  "homepage": "https://github.com/tekman13/bs-game-server#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "redis": "^3.0.2",
+    "redis-rejson": "^1.0.0",
+    "redis-server": "^1.2.2",
+    "socket.io": "^2.3.0",
+    "unique-names-generator": "^4.2.0"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1",
+    "nodemon": "^2.0.4"
+  }
+}

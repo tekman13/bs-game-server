@@ -11,11 +11,11 @@ though you are free to use this independently if you choose.
 
 Below are the current (ok, planned) API endpoints:
 
-## createTable() : TableId
+## createTable() : Table
 
 Creates a new table for users to join.
 
-## joinTable(String tableId) : TableId
+## joinTable(String tableId) : Table
 
 Allows user to join a table.
 
@@ -23,16 +23,16 @@ Allows user to join a table.
 
 Initiates a round of game play
 
-## Game.deal()
+## Game.deal() : Game
 
 Deals the cards per the rules of the game type.  This is to be 
 implemented as an iterator, with the outcome managed by the rules 
 of the game type.
 
-## Game.takeTurn(Turn turn)
+## Game.takeTurn(Turn turn) : Game
 
 Called with a turn object to indicate check, call, bet, raise, or fold.
 
-## Table.leaveTable()
+## Table.leaveTable() : void
 
 Removes the player from the table.
