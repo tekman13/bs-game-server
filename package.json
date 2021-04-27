@@ -24,7 +24,7 @@
   "homepage": "https://github.com/tekman13/bs-game-server#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "redis": "^3.0.2",
+    "redis": "^3.1.1",
     "redis-rejson": "^1.0.0",
     "redis-server": "^1.2.2",
     "socket.io": "^2.3.0",
